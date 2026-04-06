@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Reservations | Cafe Forest</title>
+  <meta name="description" content="Get in touch with Cafe Forest to make a reservation or ask a question.">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .contact-header { background-color: var(--color-forest); color: white; text-align: center; padding: 6rem 5% 4rem; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo"><h1>CAFE FOREST</h1></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="access.html">Access</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </nav>
+
+  <header class="contact-header">
+    <h1 style="font-size: 3rem; margin-bottom: 1rem;">Contact Us</h1>
+    <p style="font-size: 1.2rem; opacity: 0.9;">Reservations, private events, or just saying hello.</p>
+  </header>
+
+  <section class="section">
+    <div class="grid-2">
+      <div>
+        <h3 style="font-size: 2rem; color: var(--color-forest); margin-bottom: 1rem;">Drop Us a Line</h3>
+        <p style="color: #444; margin-bottom: 2rem;">We recommend making a reservation on weekends to guarantee your spot in the forest.</p>
+        
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <select class="form-control" required>
+              <option value="" disabled selected>Subject</option>
+              <option value="reservation">Reservation</option>
+              <option value="event">Private Event</option>
+              <option value="question">General Question</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+      <div>
+        <img src="/Users/eijioga/.gemini/antigravity/brain/33b75f48-9a4b-4bf1-ba3b-a745a71bdfbf/cafe_forest_hero_1775496392414.png" alt="Cafe Interior" style="border-radius: 8px; margin-bottom: 2rem;">
+        <h4 style="color: var(--color-wood-dark); font-size: 1.2rem; margin-bottom: 0.5rem;">Direct Info</h4>
+        <p style="color: #555;">Email: hello@cafeforest.com<br>Phone: (858) 555-1234</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h2 class="footer-logo">CAFE FOREST</h2>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Cafe Forest. All rights reserved.</p></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
